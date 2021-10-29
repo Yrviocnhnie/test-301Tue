@@ -11,9 +11,9 @@ import java.util.ArrayList;
 
 public class CustomListTest {
 
-    private CustomList list;
+    private static CustomList list;
     @BeforeAll
-    public void createList(){
+    public static void createList(){
         list = new CustomList(null, new ArrayList<City>());
     }
 
